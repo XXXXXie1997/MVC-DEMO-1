@@ -74,5 +74,27 @@ body > .page > section {
   transform: translateX(15vw);
 }
 
+#app4 {
+}
+
+@keyframes change {
+  0% {
+    background: red;
+  }
+  100% {
+    background: blue;
+  }
+}
+
+#app4 > .circle {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+#app4 > .circle.active {
+  animation: change 1s infinite linear alternate;
+}
+
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
